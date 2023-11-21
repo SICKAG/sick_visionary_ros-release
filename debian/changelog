@@ -1,0 +1,52 @@
+ros-noetic-sick-visionary-ros (1.0.0-1focal) focal; urgency=high
+
+  * First public release
+  * Enforce style guide using pre-commit
+  * simplify project structure
+  * remove support for discontinued devices
+
+ -- SICK AG TechSupport 3D Snapshot <techsupport3dsnapshot@sick.de>  Wed, 15 Nov 2023 23:00:00 -0000
+
+ros-noetic-sick-visionary-ros (0.2.3-1focal) focal; urgency=high
+
+  * Auto connect to device if connection is lost
+
+ -- SICK AG TechSupport 3D Snapshot <techsupport3dsnapshot@sick.de>  Tue, 07 Jun 2022 22:00:00 -0000
+
+ros-noetic-sick-visionary-ros (0.2.2-1focal) focal; urgency=high
+
+  * support for Visionary-T Mini CX (V3S105-1AAAAAA)
+  * Fix bug for Visionary-S CX (V3S102-1AAAAAA and V3S102-1AABAAB)  pointcloud data
+
+ -- SICK AG TechSupport 3D Snapshot <techsupport3dsnapshot@sick.de>  Tue, 01 Dec 2020 23:00:00 -0000
+
+ros-noetic-sick-visionary-ros (0.2.1-1focal) focal; urgency=high
+
+  * adapted VisionayControl module to control also through CoLa 2 besides CoLa B
+  * support for control of Visionary-T CX VGA
+
+ -- SICK AG TechSupport 3D Snapshot <techsupport3dsnapshot@sick.de>  Sun, 22 Dec 2019 23:00:00 -0000
+
+ros-noetic-sick-visionary-ros (0.2.0-1focal) focal; urgency=high
+
+  * support for Visionary-T CX VGA
+
+ -- SICK AG TechSupport 3D Snapshot <techsupport3dsnapshot@sick.de>  Sat, 02 Nov 2019 23:00:00 -0000
+
+ros-noetic-sick-visionary-ros (0.1.1-1focal) focal; urgency=high
+
+  * increased performance
+  * support cartesian data e.g. for Visionary-T DT or AG
+  * support polar data
+
+ -- SICK AG TechSupport 3D Snapshot <techsupport3dsnapshot@sick.de>  Tue, 05 Dec 2017 23:00:00 -0000
+
+ros-noetic-sick-visionary-ros (0.1.0-1focal) focal; urgency=high
+
+  * rename to visionary
+  * usage of Visionary_Common library
+  * support for Visionary-S CX (V3S102-1AAAAAA and V3S102-1AABAAB)
+
+ -- SICK AG TechSupport 3D Snapshot <techsupport3dsnapshot@sick.de>  Thu, 31 Aug 2017 22:00:00 -0000
+
+
