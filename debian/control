@@ -1,0 +1,12 @@
+Source: ros-noetic-sick-visionary-ros
+Section: misc
+Priority: optional
+Maintainer: SICK AG TechSupport 3D Snapshot <techsupport3dsnapshot@sick.de>
+Build-Depends: debhelper (>= 9.0.0), libpcl-dev, ros-noetic-catkin, ros-noetic-cv-bridge, ros-noetic-diagnostic-updater, ros-noetic-image-transport, ros-noetic-pcl-conversions, ros-noetic-pcl-ros, ros-noetic-roscpp, ros-noetic-roslaunch, ros-noetic-sensor-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-sick-visionary-ros
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libpcl-dev, ros-noetic-cv-bridge, ros-noetic-diagnostic-updater, ros-noetic-image-transport, ros-noetic-pcl-conversions, ros-noetic-pcl-ros, ros-noetic-roscpp, ros-noetic-roslaunch, ros-noetic-sensor-msgs
+Description: Open source drivers for the SICK Visionary-S 3D camera and Visionary-T Mini 3D-ToF camera.
