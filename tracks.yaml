@@ -19,9 +19,9 @@ tracks:
     name: upstream
     patches: null
     release_inc: '1'
-    release_repo_url: https://gitlab.sickcn.net/GBC09/bu05/development/systemintegration/cppbased/sick_visionary_ros-release.git
-    release_tag: 1.1.1
+    release_repo_url: https://github.com/SICKAG/sick_visionary_ros-release.git
+    release_tag: 1.1.2
     ros_distro: noetic
     vcs_type: git
     vcs_uri: https://github.com/SICKAG/sick_visionary_ros.git
-    version: 1.1.1
+    version: 1.1.2
